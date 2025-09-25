@@ -26,5 +26,6 @@ jobs:
     needs:
       - job-2
       - job-3
+      - job-1
     steps:
       - run: echo "...to form a directed acyclic graph (DAG)"
